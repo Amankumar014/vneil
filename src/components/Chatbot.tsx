@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { MessageCircle, Send, X, Loader } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
-const HEADER_HEIGHT = 80;
+// const HEADER_HEIGHT = 80;
 
 interface Message {
   id: string;
