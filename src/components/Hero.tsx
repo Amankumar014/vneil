@@ -28,10 +28,17 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: '600ms' }}>
-            <button className="group px-8 py-4 bg-purple-600 hover:bg-purple-700 dark:bg-purple-500 dark:hover:bg-purple-600 text-white rounded-full font-semibold transition-all duration-200 hover:scale-105 hover:shadow-xl flex items-center space-x-2">
+            {/* <button className="group px-8 py-4 bg-purple-600 hover:bg-purple-700 dark:bg-purple-500 dark:hover:bg-purple-600 text-white rounded-full font-semibold transition-all duration-200 hover:scale-105 hover:shadow-xl flex items-center space-x-2">
               <span>Get Started</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
-            </button>
+            </button> */}
+            <a
+              href="https://wonderful-water-0ba2f6b00.6.azurestaticapps.net/"
+              className="group px-8 py-4 bg-purple-600 hover:bg-purple-700 dark:bg-purple-500 dark:hover:bg-purple-600 text-white rounded-full font-semibold transition-all duration-200 hover:scale-105 hover:shadow-xl flex items-center space-x-2"
+              >
+              <span>Get Started</span>
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
+            </a>
             <button className="px-8 py-4 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 text-purple-600 dark:text-purple-400 border-2 border-purple-600 dark:border-purple-400 rounded-full font-semibold transition-all duration-200 hover:scale-105">
               Learn More
             </button>
